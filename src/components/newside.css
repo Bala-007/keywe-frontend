@@ -1,0 +1,58 @@
+/*css for pro-side-bar*/
+.pro-sidebar .pro-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.pro-sidebar .pro-menu .pro-menu-item.active {
+  background-color: bisque;
+  border-radius: 25px;
+  color: #0490fb;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content {
+  color: gray;
+  size: 60px;
+}
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item
+  > .pro-inner-item
+  > .pro-item-content.active {
+  color: #0490fb;
+}
+.pro-sidebar .pro-menu a:active {
+  color: aquamarine;
+}
+.pro-sidebar .pro-menu .pro-menu-item:hover {
+  color: bisque;
+}
+svg {
+  fill: gray;
+}
+svg:active {
+  fill: #0490fb;
+  color: #0490fb;
+  fill: #0490fb;
+}
+.path {
+  stroke: #0490fb;
+  fill: #0490fb;
+  color: #0490fb;
+}
+.pro-icon .svg {
+  stroke: #0490fb;
+  fill: #0490fb;
+  color: #0490fb;
+}
+.pro-menu-item {
+  color: white;
+}
+/**/
+.boxShadowImage{
+  border: 1px solid white;
+  border-radius: 31px;
+  background: white;
+  box-shadow: rgb(234 234 234) 0px 2px 0px 1px;
+  
+}

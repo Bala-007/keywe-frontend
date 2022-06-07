@@ -1,0 +1,145 @@
+.roomCount{
+   font-family: "DejaVuSansBold";
+   color: black;
+}
+.homeprice{
+  font-family: "DejaVuSansBold";
+  color: black;
+}
+.homeImage{
+    height: 95%;
+    margin-top: 5px;
+}
+.addresslist{
+    margin-top: -27px;
+}
+.pricedetail{
+    margin-top: 6px;
+}
+.score2{
+    margin-left: -22px;
+}
+/* .daysdetail{
+   margin-left:"-22px" !important;
+} */
+.sellerdetails{
+    margin-top: 40px;
+}
+.profileImage1{
+    margin-top: 27px !important;
+    width: 100%;
+}
+.sarahImage{
+    width: 20%;
+    height: 20%;
+    margin-left: 105px;
+}
+.properties{
+    display: flex;
+}
+.detailCardBack{
+    background-color: white !important;
+    padding: 20px !important;
+    margin-top: -141px !important;
+}
+.detaName{
+    font-family: "DejaVuSansBold";
+}
+.saradetails{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.propdetail{
+    display: flex;
+    justify-content: space-between;
+}
+.propdetail2{
+    font-family: "DejaVuSansBold";
+    color:black ;
+    margin-right: 18px;
+}
+.tourdetailcard{
+    box-shadow: 0 1px 4px rgb(82 80 80 / 40%), inset 0 0 40px rgb(135 128 128 / 8%);
+   width:"100%" !important;
+   border-radius: 17px !important;
+}
+.propdetail1{
+margin-left: 10px;
+}
+.hrtag{
+    width: 94%;
+    margin-left: 10px;
+}
+.nameDetail{
+    margin-left: 20px;
+}
+.recenttourdetail1{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+.recenttourdetail2{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+.touraddress{
+    margin-left: 25px;
+}
+.recenttourImage{
+    margin-left: 20px;
+    width: auto;
+    height: 100%;
+}
+.touraddress p{
+    margin: 0;
+}
+
+/* Listing Detail CSS */
+.listbuyername{
+    font-family: "DejaVuSansBold";
+}
+.listtime{
+    font-family: "DejaVuSansBold";
+}
+.listagent{
+    font-family: "DejaVuSansBold";  
+}
+.listmodifybut{
+    width: 61%;
+    height: 50px;
+    background-color: #4B91FB;
+}
+.listdate{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listingdate{
+    font-family: "DejaVuSansBold"; 
+}
+.sellerimage{
+    border-radius: 48px;
+}
+.sellerDetailName{
+    margin-bottom: 15px;
+    font-family: DejaVuSansBold;
+    margin-left: 29px;
+    text-transform: capitalize;
+}
+
+
+
+@media (max-width: 1440px) {
+    .touraddress{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .touraddress{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,32 @@
+.homeText{
+text-align: center;
+font-family: "DejaVuSansBold";
+}
+.homeemail{
+text-align: center;
+margin-top: 21px;
+}
+.needhome{
+    margin-top: 43px;
+    margin-bottom: 67px;
+}
+.estimateText{
+    font-family: "DejaVuSansBold";
+    color: white;
+    position: absolute;
+    top: 59%;
+    left: 12%;
+}
+.homelogo{
+    position: absolute;
+    top: 31%;
+    left: 12%;
+    width: 26%;
+    height: 20%;
+}
+.homebanner{
+    width: 100%;
+}
+.homemobile{
+    width: 70%;
+}

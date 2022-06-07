@@ -1,0 +1,443 @@
+.imageBackground {
+  height: 800px;
+  width: 100%;
+}
+.imageContent {
+  position: absolute !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 34%;
+  width: 100%;
+}
+.firstText {
+  color: #ffffff;
+  font-family: "DejaVuSansCondensed";
+  height: 46;
+  width: 410;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.secondText {
+  color: #ffffff;
+  font-family: "DejaVuSansCondensed";
+  height: 46px;
+  width: 10;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+.searchBar {
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 16px;
+  color: black;
+  height: 54px;
+  width: 312px;
+  border: none;
+  font-family: "DejaVuSansCondensed";
+  font-weight: bold;
+  outline: none;
+  padding-right: 15px;
+  position: relative;
+}
+.search1 {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  top: 15px;
+  left: 88%;
+  height: 22px;
+  width: 22px;
+}
+
+.navbar {
+  position: absolute !important;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  align-items: center;
+  width: 100%;
+}
+
+.imageContent {
+  position: absolute !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 34%;
+  width: 100%;
+}
+
+/* sell my home css */
+
+.keybut{
+  color: #0490fb;
+  background-color: white;
+  border-color: #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+  width: 39%;
+  margin-left: 20px;
+  border: 1px solid;
+}
+.transbut{
+    background-color: #0490fb;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 39%;
+    border-color: #0490fb;
+    border: none;
+    margin-left: 10px;
+}
+.cardbelowtext{
+  display: flex;
+  margin-left: 37px;
+}
+.editinfo{
+  text-decoration: none;
+  margin-left: 5px
+}
+.edithead{
+  font-family: "DejaVuSansBold";
+}
+.editCard{
+  border-radius:30px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+/* Message page css */
+.profileImage{
+  width: 53%;
+  height: 73%;
+  margin-left: 31px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.msgName{
+  font-family: "DejaVuSansBold";
+  margin-left: 31px;
+  margin-top: 37px;
+  margin-left: 0px;
+}
+.msgprofile{
+  font-family: "DejaVuSansBold";
+  margin-top: 37px;
+
+}
+.msgCard{
+  margin-bottom: 30px;
+  border-radius: 20px !important;
+  height: 150px;
+}
+.chatText{
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+.headText{
+  display: flex;
+  align-items: center
+}
+
+/* toggle switch css */
+
+
+/* message details css */
+.cardback{
+  background: white;
+  padding: 15px;
+  margin-top: -14px;
+  height: 100%;
+}
+
+.detailImage{
+  width: 80%;
+  height: 100%;
+
+}
+.chatCard1{
+  margin-bottom: 30px;
+  width: 85%;
+  height: 100%;
+  background-color: #eff7fd !important;
+  border-radius: 10px !important;
+  border-bottom-left-radius: 0px !important;
+  border-color: #e2eff9 !important;
+  margin-left: 30px;
+}
+.chatCard1::before,.chatCard1::after {
+  width: 11px;
+  height: 11px;
+  border-right: solid 15px rgb(239 247 253);
+  border-bottom: solid 0px transparent;
+  border-top: solid 15px transparent;
+  position: absolute;
+  content: "";
+  left: -10px;
+  bottom: 0px;
+  z-index: 1;
+}
+.chatCard1::after {
+  left: -12px;
+  bottom: -1px;
+  border-right: solid 12px #e2eff9;
+  border-top: solid 12px transparent;
+  z-index: 0;
+}
+.chatCard2{
+  margin-bottom: 30px;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px !important;
+  border-bottom-right-radius: 0px !important;
+  border-color: #e2eff9 !important;
+  margin-left: 70px;
+}
+.chatCard2::before,.chatCard2::after {
+  width: 11px;
+  height: 11px;
+  border-right: solid 15px #fff;
+  border-bottom: solid 0px transparent;
+  border-top: solid 15px transparent;
+  position: absolute;
+  content: "";
+  right: -12px;
+  bottom: 0px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+.chatCard2::after {
+  border-right: solid 15px #e2eff9;
+  border-top: solid 15px transparent;
+  right: -15px;
+  bottom: -1px;
+  z-index: 0;
+}
+.chattime1{
+  font-size: 10px;
+  color: #6b6b6b;
+  position: absolute;
+  bottom: -2px;
+  right: 10px;
+}
+.chattime2{
+  font-size: 10px;
+  color: #6b6b6b;
+  position: absolute;
+  bottom: -2px;
+  left: 10px;
+}
+.chattext1{
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-right: 40px;
+}
+.chattext2{
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 40px;
+  text-align: right;
+}
+.chatinput{
+  display: flex;
+  /* margin-bottom: 50px; */
+  margin-top: 10px;
+}
+.chatfield{
+  width: 80%;
+  margin-left: 20px;
+  border-radius: 22px;
+  border: 1px solid #d6d2d2;
+}
+.sendimage{
+  margin-left: 10px;
+}
+.marugaritedetails{
+  display: flex;
+  margin: 30px;
+}
+.onlineName {
+  margin: 20px 20px 0;
+}
+.eliptext{
+  display: flex;
+  align-items: baseline
+}
+.elipImage{
+  height: 15px !important;
+  width: 15px;
+}
+.agentimage{
+  width: 100px;
+  border-radius: 54px;
+  height: 98px;
+}
+
+
+/* Estimator Css */
+.estimatorhead{
+  font-family: "DejaVuSansBold";
+  margin-left: 14px; 
+}
+.estimatCard{
+  border-radius:30px !important;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  padding: 16px;
+  width: 112%;
+  margin-left: -46px;
+}
+.estimatorhead1{
+margin-top: 15px;
+margin-left: 14px;
+font-family: "DejaVuSansBold";
+}
+.estimatesuggest{
+  margin-top: 17px;
+  margin-left: 21px;
+}
+.demandback{
+  background-color: #F2F2F2;
+  margin-top: 30px;
+}
+.demandText{
+  font-family: "DejaVuSansBold";
+  }
+  .demanddetail{
+    display: flex;
+    margin-bottom: 36px;
+    margin-top: 20px;
+  }
+  .estimatorhead2{
+  font-family: DejaVuSansBold;
+  margin-left: 20px;
+  margin-top: 17px;
+  }
+  .estimatesale{
+    margin-left: 21px;
+  }
+  .estimatesale{
+    margin-left: 30px;
+  }
+
+  .compare{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .Refinancebut{
+    color: #0490fb;
+    background-color: white;
+    border-color: #0490fb;
+    padding: 10px;
+    border-radius: 6px;
+    width: 47%;
+    margin-left: 20px;
+    border: 1px solid;
+    height: 57px;
+  }
+  .connectbut{
+    background-color: #0490fb;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 47%;
+    border-color: #0490fb;
+    border: none;
+    margin-left: 10px;
+    height: 55px;
+  }
+  .estimatebut{
+    margin-bottom: 40px;
+    margin-top: 21px;
+  }
+  .profilemarImage {
+    border-radius: 10px;
+    width: 100px;
+    margin: 0px 0px 0px 40px;
+  }
+  .agentsCard {
+    border-radius: 20px;
+    box-shadow: rgb(228 229 231) 1px 2px 4px 2px;
+    margin: 30px 0px 0px !important;
+    padding: 20px 10px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 185px;
+  }
+  .agentsCardsize {
+    font-size: 16px;
+    align-items: center;
+  }
+  .agentsCardbtn {
+    height: 50px;
+    width: 170px;
+    background: rgb(4, 144, 251) !important;
+    border: none !important;
+    border-radius: 8px !important;
+  }
+
+
+
+  @media (max-width: 1600px) {
+    .profilemarImage {
+      margin: 0px 0px 0px 20px;
+    }
+    .chatCard2 {
+      margin-left: 50px;
+    }
+    .chatinput {
+      width: 95%;
+    }
+    .agentsCardname {
+      margin-left: 10px;
+    }
+    .agentsCardsize {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .onlineName {
+      margin: 20px 10px 0;
+    }
+    .chatCard2 {
+      margin-left: 40px;
+    }
+    .agentsCardname {
+      margin-left: 30px;
+    }
+  }
+
+  @media (max-width: 1366px) {
+    .marugaritedetails {
+      margin: 15px;
+    }
+    .profilemarImage {
+      width: 80px;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .onlineName {
+      font-size: 12px;
+    }
+    .chatCard2 {
+      margin-left: 30px;
+    }
+    .agentsCardsize {
+      font-size: 13px;
+    }
+    .agentsCardbtn {
+      width: 130px;
+      font-size: 14px !important;
+    }
+  }

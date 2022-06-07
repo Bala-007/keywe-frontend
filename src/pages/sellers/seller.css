@@ -1,0 +1,347 @@
+/* SELLER.CSS */
+.sellername{
+  font-family: "DejaVuSansBold";
+}
+.selleraddress{
+  font-family: "DejaVuSansBold";
+}
+.sellerkeyweprice{
+  font-family: "DejaVuSansBold";
+}
+.sellermarketdays{
+  font-family: "DejaVuSansBold";
+}
+.sellerlistprice{
+  font-family: "DejaVuSansBold";
+}
+.sellerImage{
+  border-radius: 20px;
+  
+}
+.sellerProspectImage{
+  border-radius: 20px;
+}
+.sellerback{
+  background-color: white !important;
+  padding: 5px !important;
+  margin-top: -82px !important;
+}
+.sellerestimatebut{
+  width: 91%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background-color: #0094ff;
+  border: none;
+  margin-top: -10px;
+}
+.sellerRoundBar{
+  border-top: 2px solid rgb(235, 235, 235);
+  width: 90%;
+  margin: 30px auto;
+}
+.sellertourdetail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 25px;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  padding: 10px 0px;
+  height: 83px;
+}
+
+/* seller detail page */
+.sellermaskgroup40{
+  width: 88%;
+  margin-left: 12px;
+  border-radius: 8px;
+}
+.gallerygroup{
+  display: flex;
+}
+.sellerThumbs{
+  float: right;
+  margin-right: 15px;
+  margin-top: 7px;
+}
+.sellergallery{
+  font-family: "DejaVuSansBold";
+  margin-left: 12px;
+  margin-bottom: 23px;
+  margin-top: 5px;
+}
+.sellerTour{
+  margin: 5px 25px;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  padding: 10px 0px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+.sellerview{
+  color: #0094ff;
+  margin-top: 15px;
+  margin-left: 23px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+.galleryback{
+  background-color: #ebebeb;
+  padding: 6px 6px 20px 6px;
+  margin-bottom: 28px;
+}
+.sellerreal{
+  font-family: "DejaVuSansBold";
+  margin: 5px 25px;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  padding: 10px 0px;
+}
+.sellerrealtext{
+  margin-left: 23px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.sellerbut{
+  margin-left: 20px;
+  margin-bottom: 21px;
+  margin-top: 8px;
+  background: white;
+  color: #0094ff;
+  width: 45%;
+  height: 48px;
+  height: 48px;
+  border: 1px solid #0094ff;
+}
+.sellerrecently{
+  font-family: "DejaVuSansBold"; 
+  margin-left: 25px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  border-top: 2px solid rgb(235, 235, 235);
+}
+.prospectsource{
+  margin-top: 56px;
+}
+.prospectrefrel{
+  margin-top: 56px;
+}
+.prospectmessage{
+  font-family: "DejaVuSansBold";
+  margin-left: 4%;
+  margin-top: 14px;
+}
+.prospectText{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: "DejaVuSansCondensed";
+}
+.prospectback{
+  background-color: white !important;
+  padding: 5px !important;
+  margin-top: -82px !important;
+}
+.sellerCard{
+  border: 2px solid #f8f7f7;
+  border-radius: 15px;
+  margin: 20px;
+  height: 100%;
+  padding-top: 25px;
+}
+.prospectCard{
+  border-radius: 15px;
+  border: 2px solid #f8f7f7;
+  margin: 20px;
+  height: 100%;
+  padding-top: 25px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.sellercardRow {
+  border-radius: 20px;
+  border: 2px solid #f8f7f7;
+  margin: 30px 0px 0px;
+  padding: 20px 10px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.msgint {
+  margin-left: 20px;
+}
+.interaddress {
+  text-align: center;
+  margin-top: 20px;
+}
+.interaddress p {
+  margin: 0;
+  font-size: 12px;
+  font-family: "SFPro-regular";
+}
+.interaddress span {
+  font-size: 36px;
+  line-height: 0;
+  margin-left: 3px;
+  margin-right: -5px;
+}
+.interaddress button {
+  border: 1px solid #d1d1d1;
+  padding: 7px 20px;
+  border-radius: 40px;
+  margin: 15px;
+  margin-bottom: 40px;
+}
+.sellertourdetail p {
+  font-size: 13px;
+  color: #717171;
+}
+.soldcomp h5 {
+  font-family: "DejaVuSansBold";
+  font-size: 12px;
+  margin-top: 20px;
+}
+.soldcomp p {
+  font-size: 12px;
+}
+.soldcomp span {
+  font-size: 10px;
+}
+.keywePrice {
+  margin-top: 35px;
+}
+.propectstatus{
+  border-radius: 26px;
+  padding: 6px !important;
+  background-color: white;
+  margin-top: 13px;
+  margin-bottom: 39px;
+  width: 190px;
+  outline: none;
+}
+.logout-dropdown{
+  position: absolute;
+  z-index: 9;
+  box-shadow: rgb(0 0 0 / 16%) 5px 6px 18px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  right: -41px;
+  width: 224px !important;
+  top: 83px !important;
+}
+
+.imageupload{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  left: -5px;
+  top: -5px;
+}
+.profileimages {
+  position: relative;
+  bottom: 30px;
+  left: 63%;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.kimberlyimage{
+  width: 100%;
+  height: 95%;
+  border-radius: 14px;
+}
+.fileupload{
+  position: absolute;
+  top: 43px;
+  left: 0;
+  opacity: 0;
+  width: 21%;
+}
+
+
+
+@media (max-width: 1600px) { 
+  .sellerImage {
+    width: 200px;
+  }
+  .soldcomp h5 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1440px) { 
+  .sellerImage {
+    width: 160px;
+    margin-top: 20px;
+  }
+  .soldcomp h5 {
+    margin-top: 0;
+  }
+  .sellername {
+    font-size: 14px;
+  }
+  .selleraddress {
+    font-size: 14px;
+  }
+  .sellerkeyweprice{
+    font-size: 14px;
+  }
+  .sellermarketdays{
+    font-size: 14px;
+  }
+  .sellerlistprice{
+    font-size: 14px;
+  }
+  .sellertourdetail h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1366px) { 
+  .sellername {
+    font-size: 13px;
+  }
+  .selleraddress {
+    font-size: 13px;
+  }
+  .sellerkeyweprice{
+    font-size: 13px;
+  }
+  .sellermarketdays{
+    font-size: 13px;
+  }
+  .sellerlistprice{
+    font-size: 13px;
+  }
+  .prospectrefrel {
+    margin-top: 20px;
+  }
+  .sellertourdetail h5 {
+    font-size: 17px;
+  }
+  .sellerrealtext {
+    margin-right: 20px;
+  }
+  .sellerbut {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1280px) { 
+  .sellerImage {
+    width: 140px;
+    margin-top: 25px;
+  }
+  .selleraddress {
+    font-size: 12px;
+  }
+  .sellertourdetail h5 {
+    font-size: 15px;
+  }
+  .sellerrecently {
+    font-size: 15px;
+  }
+  .soldcomp h5 {
+    margin-top: -7px;
+  }
+}

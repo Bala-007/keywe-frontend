@@ -1,0 +1,34 @@
+.carousel .control-dots {
+    list-style-type: none;
+    position: absolute !important;
+    top: 50% !important;
+    left: 95% !important;
+}
+.control-dots .dot{
+    display: block !important;
+}
+.carousel.carousel-slider .control-arrow{
+    display: none !important;
+}
+.carousel .thumbs {
+    display: none !important;
+}
+.carousel .control-dots .dot {
+    border-color: #fff !important;
+    background: #fff !important;
+    width: 10px;
+    height: 20px;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    opacity: 1 !important;
+    box-shadow: none;
+}
+.carousel .control-dots .dot.selected{
+    background: #0490fb !important;
+    height: 60px !important;
+    border-radius: 10px !important;
+    border-color: #0490fb !important;
+}
+.carousel .carousel-status {
+    display: none;
+}

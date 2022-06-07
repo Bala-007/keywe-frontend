@@ -1,0 +1,740 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 19%;
+  height: 20em;
+}
+.tourbut{
+  color: #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+  width: 35%;
+  border: 1px solid #0490fb;
+}
+.chatbut{
+  background-color: #0490fb;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  width: 35%;
+  border-color: #0490fb;
+  border: none;
+  margin-left: 20px;
+}
+.memberbut{
+  padding: 3px;
+  border-radius: 18px;
+  width: 150px;
+  background-color: #37426F;
+  color: white;
+  float: right;
+}
+.viewbut{
+  margin-left: 20%;
+  color: #0490fb;
+  border: 1px solid #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+  width: 60%
+}
+.schedulbut{
+  display: flex;
+  margin-bottom: 20px;
+}
+.houseSale {
+  font-size: 22px;
+  margin: 0;
+  font-family: "DejaVuSansBold";
+}
+.housetext{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.memberSale {
+  font-size: 22px;
+  text-align: right;
+  margin: 10px 0;
+  font-family: "DejaVuSansBold";
+}
+.incredibletext {
+  margin-top: 15px;
+  line-height: 1.8;
+}
+.detCard{
+  width: 73%;
+  margin-bottom: 30px;
+  /* height: 100px; */
+  border-radius: 15px;
+  box-shadow: rgb(221 221 221) 0px 5px 8px !important;
+  border: none;
+}
+.detCard2{
+  border-radius: 25px;
+  width: 73%;
+  /* height: 100px; */
+  width: 91%;
+}
+.activity{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.mask38 {
+  width: 100%;
+  padding: 20px 12px;
+  height: 600px;
+}
+.mask381 {
+  width: 100%;
+  padding: 5px 12px 20px 12px;
+  height: 600px;
+  object-fit: cover;
+}
+.week{
+  border-radius: 30px;
+  height: 35px;
+  background-color: transparent;
+  padding: 0px 10px !important;
+  border: 1px solid #c9c9c9;
+  outline: none;
+}
+.viewtext{
+  font-size: small;
+  margin: 0;
+}
+.otherbut{
+  border-radius: 7px;
+  font-size: 14px;
+  height: 48px;
+  width: 100%;
+  border: none;
+  background: #f2f2f2;
+  color: #0490fb;
+}
+.propCard{
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px !important;
+  margin-bottom: 5px;
+}
+.simCard{
+  display:flex ;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: -15px;
+}
+.similar{
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-family: "DejaVuSansBold";
+  padding-top: 27px;
+}
+.similarback{
+  background-color:#efefef;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.propImage{
+  padding: 10px;
+  margin-bottom: -10px;
+}
+
+/* popup design */
+.popupsearch{
+  display: flex;
+  justify-content: space-between;
+}
+.searchIcon{
+  position: absolute;
+  top: 10px;
+  left: 39%;
+  color: #9D9D9D;
+}
+.popupselect{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+}
+.tourtext{
+  font-size: small;
+}
+.tourtext1{
+  font-weight: 100;
+  font-size: 16px;
+  color: #585858;
+}
+.selectdistance{
+  width: 45%;
+  border-radius: 31px;
+  border: none;
+  background-color: #F9F9F9;
+  outline: none;
+  font-size: 16px;
+  color: #585858;
+}
+.toursearch{
+  border-radius: 30px;
+  border: none;
+  background-color: #F9F9F9;
+  outline: none;
+  font-size: 16px;
+  color: #585858;
+}
+.chatinput{
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #dee2e6;
+  outline: none;
+}
+.chatdetail{
+  display: flex;
+  border-top: 1px solid #dee2e6;
+  padding-top: 40px;
+}
+
+.upload, .claimOwner{
+  margin-left: 20px;
+  display: inline;
+  border-radius: 60px;
+  border: 2px solid white;
+  padding: 5px 7px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255);
+  cursor: pointer;
+}
+.uploadOwner{
+  position: absolute;
+  width: 50%;
+  border-radius: 11px;
+  border: 1px solid #b3afaf;
+  margin-bottom: 5px;
+  padding: 10px;
+  background: #f3f3f3;
+}
+.ownerFileName{
+  width:50%;
+  margin:0px 25px;
+}
+.fileUploadBrowse{
+  color: #0490fb;
+}
+.claimOwner{
+  color:#0490fb !important;
+  padding: 5px 12px !important;
+}
+.detailIcon{
+  margin-bottom: 30px;
+}
+.viewdetails{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.imagetext{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* calendar popup */
+.Calendar{
+  width: 100% !important;
+  border: none !important;
+  margin-bottom: 27px !important;
+}
+.calbutton{
+  background-color: white !important;
+  color: black !important;
+  border-radius: 50px !important;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #858585;
+  font-family: "DejaVuSansBold";
+}
+.calbutton1{
+  background-color: #0490fb !important;
+  color:white !important;
+  border-radius: 50px !important;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #858585;
+  font-family: "DejaVuSansBold";
+}
+.timebut1{
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.timebut2{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.memberdetails{
+  position: relative;
+}
+.memberIcon{
+  padding-right: 10px;
+}
+
+/* connect agent popup */
+
+.agentText2{
+  font-weight: 100;
+}
+/* success popup */
+.successtext{
+  text-align: center;
+  margin-top: 20px;
+}
+.circle2{
+  display: inline-block;
+  border-radius: 60px;
+  border:   2px solid #78C93A;
+  padding: 0.2em 0.4em;
+  margin-top: 13px;
+  margin-left: 45%;
+  
+}
+
+/* tourconfirm popup */
+.tourconfirm{
+  border-radius: 20px;
+  background-color: rgb(0 0 0 / 70%);
+  width: 70%;
+  margin: 0 auto;
+}
+.modelbox{
+ background: transparent;
+}
+.tourimage1{
+  margin-left: 10px;
+  width: 40%;
+  height: 82px;
+  border-radius: 51px;
+  margin-top: 5px;
+}
+.tourimage{
+margin-left: 10px;
+}
+.viewmytourbut{
+  color: #0490fb !important;
+  border-color: #0490fb !important;
+  background-color: white !important;
+  width: 50% !important;
+  margin-bottom: 29px !important;
+  margin-left: 25% !important;
+  height: 50px !important;
+}
+.successtext2{
+  text-align: center;
+  margin-top: 20px !important;
+  color: white !important;
+}
+.modelbox .modal-content {
+  background: transparent !important;
+}
+
+/* sell my home details */
+.updatehome{
+  display: flex !important;
+  justify-content: space-evenly;
+  font-family: "DejaVuSansCondensed";
+  margin-left: -55px;
+}
+.updatehomeprice{
+  width: 25%;
+  margin-left: 3% !important;
+  border: 1px solid #b3afaf;
+  border-radius: 17px;
+  background-color: #f1efef;
+}
+.addHead{
+  font-family: "DejaVuSansBold";
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.additionalbut{
+  background-color: white;
+  border-color: black;
+  color: black;
+  border-radius: 30px;
+  width: 25%;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "DejaVuSansBold"
+}
+.additionalbut2{
+  background-color: white;
+  border-color: black;
+  color: black;
+  border-radius: 30px;
+  width: 35%;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "DejaVuSansBold";
+  margin-bottom: 30px;
+}
+.additionalbut3{
+  background-color: white;
+  border-color: black;
+  color: black;
+  border-radius: 30px;
+  width: 35%;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "DejaVuSansBold";
+}
+.detailText{
+  margin-left: 20px;
+  font-family: "DejaVuSansCondensed";
+}
+
+/* Claim Details popup */
+.phoneNumber{
+  width: 100%;
+  border-radius: 11px;
+  border: 1px solid #b3afaf;
+}
+.fileUpload{
+  width: 100%;
+  border-radius: 11px;
+  border: 1px solid #b3afaf;
+  margin-bottom: 5px;
+}
+.fileUploadClaim{
+  width: 50%;
+  border-radius: 11px;
+  border: 1px solid #b3afaf;
+  margin-bottom: 5px;
+  opacity:0;
+}
+.phoneText{
+  margin-top: 20px;
+}
+.ownership{
+  margin-top: 20px;
+}
+.claimbut{
+  margin-top: 20px;
+  width: 34%;
+  border-radius: 11px;
+  height: 40px;
+  margin-right: 64%;
+  margin-bottom: 20px;
+  background-color: #0490fb;
+}
+.namedet{
+  border-radius: 11px;
+  border: 1px solid #b3afaf;
+  background: #f3f3f3;
+}
+.tooltip{
+  display: flex;
+}
+
+/* select agent popup */
+.selectdet{
+  width: 50%;
+  border-radius: 10px;
+  background-color: white;
+}
+.agentText{
+  font-size: 20px;
+  text-align: center;
+}
+.agentsubBut{
+  width: 31%;
+  border-radius: 10px;
+  height: 44px;
+  margin-right: 32%;
+  margin-bottom: 21px;
+}
+
+/* Time Range popup */
+.selecttime1{
+  width: 100%;
+  border-radius: 12px;
+  background-color: white;
+  color: #8a8787;
+}
+.selecttime2{
+  width: 100%;
+  border-radius: 12px;
+  background-color: white;
+  color: #8a8787;
+}
+.timesubbut{
+  width: 100%;
+  background-color: white;
+  color: #8a8787;
+  margin-top: 35px;
+  border: 1px solid #8a8787;
+}
+
+/* Select Group popup */
+.groupdetail{
+  font-family: "DejaVuSansCondensed";
+  display: flex;
+  justify-content: space-between;
+}
+.groupaddbut{
+  background-color: white;
+  color: #0490fb;
+  border: none;
+}
+
+/* Edit profile popup */
+
+.fileUploadbox{
+  width: 95%;
+  border-radius: 11px;
+  border: 1px solid #b3afaf;
+  margin-bottom: 5px;
+}
+.filedetails{
+  display: flex;
+}
+.textnotes{
+  width: 100%;
+}
+.profileDetail{
+  align-items: center;
+}
+.profileImage{
+  border-radius: 60px;
+  margin-left: 34%;
+}
+.profileName{
+  font-family: "DejaVuSansBold";
+  margin-left: 36%;
+  margin-top: 12px;
+}
+.Editsubmitbut{
+  width: 30%;
+  height: 44px;
+  margin-left: 33px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+/* Accept popup css */
+
+.nobutton{
+  margin-left: 91px;
+  width: 26%;
+  background-color: white;
+  color: black;
+  margin-bottom: 41px;
+  margin-top: 15px;
+  border: 1px solid #0490fb;
+}
+.yesbutton{
+  margin-left: 32px;
+  width: 27%;
+  margin-bottom: 41px;
+  margin-top: 15px;
+  background-color: #0490fb;
+}
+.accepttext{
+  font-family: "DejaVuSansCondensed";
+}
+
+/* TourDetail Popup CSS */
+
+.TourDetailHomeImage{
+  width: 113%;
+  margin-left: -28px;
+  margin-top: -16px;
+}
+.tourdetailtext{
+  display: flex;
+  align-items: flex-start
+}
+.tourdetails{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tourName{
+  margin-left: 6px;
+  font-family: "DejaVuSansBold";
+}
+.tourHead{
+  font-family: "DejaVuSansBold"; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.tourCard{
+  width: 119%;
+  margin-bottom: 30px;
+  height: 100px;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+.tourDetailcard{
+  display: flex;
+ }
+.tourAddress{
+  margin-left: -25px;
+  margin-top: 25px;
+}
+.tourAddressText{
+  font-family: "DejaVuSansBold";
+}
+
+/* Phto send popup css */
+.fileuploadbox{
+  width: 87%;
+  margin-left: 18px;
+  border-radius: 12px;
+  border: 1px solid #878787;
+  background-color: #FBFBFB;
+}
+.photosendbut{
+  width: 90%;
+  margin-right: 31px;
+  border-radius: 11px;
+  height: 46px;
+}
+.photosendtext{
+  text-align: center;
+  font-family: "DejaVuSansCondensed";
+  color: #262525;
+}
+
+/* Modify tour popup */
+.updatetourbut{
+  width: 100%;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-color: #0490fb;
+}
+.cancetourbut{
+  width: 100%;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-color: white;
+  color: #0490fb;
+}
+.calendarIcon{
+  position: absolute;
+  top: 64px;
+  left: 182px;
+}
+.clockIcon{
+  position: absolute;
+  top: 63px;
+  right: 30px;
+}
+.simproperties {
+  margin: 12px;
+}
+.simproperties p {
+  margin: 0;
+  font-size: 13px;
+}
+.similarproperties {
+  display: flex;
+}
+.similarproperties .simhead {
+  margin: 0 auto;
+}
+.simheadCard {
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: rgb(221 221 221) 0px 5px 8px;
+  border: none;
+  width: 200px;
+  margin: 10px;
+}
+.chatsCard {
+  border-radius: 15px;
+  box-shadow: rgb(221 221 221) 0px 5px 8px;
+  border: none;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.homes1 {
+  width: 100%;
+  height: 100%;
+}
+.sendimage{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.chatActive {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+.toursearchIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.toursearchIcon .fa-search:before {
+  color: #737373;
+}
+/* Refrel fee popup */
+
+.RefrelFee{
+  border-radius: 13px;
+  width: 70%;
+  border: 1px solid black;
+}
+.refsubmitbut{
+  width: 76%;
+  height: 45px;
+  border-radius: 12px;
+}
+/* //intrested property name */
+.similarCard {
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: rgb(221 221 221) 0px 5px 8px;
+  border: none;
+  width: 200px;
+  margin: 10px;
+}
+
+@media (max-width: 1600px) {
+  .simCard {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .detCard {
+    width: 100%;
+  }
+  .tourbut {
+    width: 100%;
+  }
+  .chatbut {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .houseSale {
+    font-size: 20px;
+  }
+  .memberSale {
+    font-size: 20px;
+  }
+}

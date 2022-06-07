@@ -1,0 +1,46 @@
+.primaryColor {
+    background-color: #0590FB !important;
+    color: white !important;
+}
+.primaryColorOutline{
+    color: #0590FB !important;
+    border: 1px solid #0590FB;
+}
+.color-red{color: red;}
+.color-white{color:white}
+.color-lightGray{color:#575757}
+/* font family */
+.DejaVuSansCondensed{font-family: 'DejaVuSansCondensed';}
+.DejaVuSansBold{font-family: 'DejaVuSansBold';}
+.SFPro-regular{font-family: 'SFPro-regular';}
+
+/* font size */
+.f-12{font-size: 12px;}
+.f-13{font-size: 13px;}
+.f-14{font-size: 14px;}
+.f-16{font-size: 16px;}
+.f-18{font-size: 18px;}
+.f-20{font-size: 20px;}
+.f-24{font-size: 24px;}
+
+/* width */
+.w-283{width: 283px;}
+.w-60{width: 60%;}
+/* height */
+.h-410{height: 410px;}
+/* margin */
+.mt-14{margin-top: 14px;}
+.mt-20{margin-top: 20px;}
+.ms-auto{margin-left: auto;}
+
+.right-10{right: 10px;}
+
+.cursor-pointer{cursor: pointer;}
+.overflow-auto{overflow: auto;}
+.br-10{ border-radius: 10px;}
+.br-50{border-radius: 50px;}
+.pv-32{padding: 0px 32px;}
+.overflow-y-auto{overflow-y: auto;}
+.overflow-x-hidden{overflow-x: hidden;}
+.text-capitalize{text-transform: capitalize;}
+.border-none{border: none;}

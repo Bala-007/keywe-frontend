@@ -1,0 +1,118 @@
+.bgcolor {
+    background: #f1f1f1;
+  }
+  .searchposition {
+    position: absolute;
+    top: 12px;
+    left: 764px;
+  }
+  .searchpadding {
+    padding: 0px 25px;
+  }
+  .searchdir {
+    display: flex;
+    flex-direction: row;
+  }
+  #cardComponent {
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px 8px #0e0e0e24;
+    margin: 20px 0 0 0;
+    padding: 0px 10px;
+    background: #fff;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 7%!important;
+}
+  
+  .searchinput {
+    border: 0px solid;
+    border-radius: 15px;
+    height: 33px;
+  }
+  .filter {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .cardProfile {
+    margin: 50px;
+    margin-top: 6%;
+  }
+  .profile {
+    margin: 8px 10px 30px -10px;
+    height: 56px;
+  }
+  .profilepic {
+    width: 80px;
+    border-radius: 50px;
+    margin: 20px 10px;
+    height: 162%;
+    margin-top: 0;
+  }
+  .profilemargin {
+    margin: 1px 25px;
+  }
+  .prof{
+    padding-top: 25px;
+    margin-left: 40px;
+  }
+  .fname {
+    font-family: "DejaVuSansBold";
+    font-size: 16px;
+  }
+  .rolenote {
+    font-size: 13px;
+    margin: 3px 0;
+  }
+  .time {
+    font-size: 10px;
+    color: #848484;
+  }
+  #change {
+    font-size: 20px;
+  }
+  #cardrow {
+    flex: 1;
+    flex-direction: row;
+  }
+  .content {
+    font-size: 17px;
+  }
+  .bgleftcolor {
+    background: #f1f1f1;
+  }
+.notificationdelete{
+  margin-right: 15px;
+    width: 13%;
+    background-color: transparent;
+    color: #0590fb;
+    height: 45px;
+    border: 1px solid #0590fb;
+    border-radius: 8px;
+}
+
+
+
+  @media (max-width: 1600px) {
+    .prof {
+      margin-left: 55px;
+    }
+    #content {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 1366px) {
+    .profile {
+      margin: 8px 10px 0px -15px;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .profilepic {
+      width: 70px;
+    }
+    .prof {
+      margin-left: 50px;
+    }
+  }

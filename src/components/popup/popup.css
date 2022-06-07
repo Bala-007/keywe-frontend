@@ -1,0 +1,227 @@
+.areatext {
+    border-radius: 15px;
+    border: 1px solid;
+    height: 42px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
+
+.buyersubbut {
+    width: 38%;
+    height: 44px;
+    border-radius: 12px;
+    margin-left: 95px;
+}
+
+.agentselect {
+    padding: 30px 14%;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.selectbutton {
+    text-align: center;
+}
+
+.dollersymbol {
+    position: absolute;
+    left: 46px;
+    top: 8px;
+}
+
+.agenterrormsg {
+    text-align: center;
+    font-size: 12;
+    color: #FF0D10;
+    padding-top: 4;
+}
+
+.messagearea {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.ownedpropertyaddress {
+    width: 52%;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 11px;
+    margin-bottom: 16px;
+    border-radius: 14px;
+    background: none;
+}
+
+.submitsellbut {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DejaVuSansBold {
+    font-family: 'DejaVuSansBold';
+}
+
+.bottom-1 {
+    bottom: -1px
+}
+
+.left-12 {
+    left: 12px
+}
+
+.pl-22 {
+    padding-left: 22px !important;
+}
+
+.SFPro-regular {
+    font-family: 'SFPro-regular';
+}
+
+.h-300 {
+    height: 370px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.pac-container {
+    z-index: 1100 !important;
+}
+
+.popUpGooglePlace .pac-target-input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da
+}
+
+.popUpGooglePlace .pac-target-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.simlilar .react-multiple-carousel__arrow {
+    width: 55px !important;
+    height: 55px !important;
+    top: 88px !important;
+    background: #fff !important;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255 / 8%) !important;
+}
+
+.modal-dialog .tourAvailablePopup {
+    max-width: 1000px !important;
+}
+
+.special_modal {
+    background: #6e6e6e94;
+}
+
+.tourAvailiablePopUp .Calendar {
+    width: 100%;
+    box-shadow: 0 0 5px #8798ad;
+}
+
+.Calendar__day.-today:not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween) {
+    background: #EEF5FF;
+    color: #c72e2e !important
+}
+
+.Calendar__weekRow .Calendar__day.-selected {
+    background: #0769FF !important;
+    color: white !important;
+}
+
+.Calendar__day {
+    width: 44px !important;
+    margin: 4px !important;
+}
+
+.Calendar__day:not(.-blank):not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween):not(.-selected):hover {
+    background: #EEF5FF !important;
+}
+
+.Calendar__weekRow .Calendar__day.-disabled {
+    color: #9b9b9b !important
+}
+
+.Calendar__day.-ltr {
+    color: black !important;
+}
+
+.Calendar__day.-blank {
+    background: none;
+}
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.modal.fade .modal-dialog {
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -webkit-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+}
+
+@media (min-width: 992px) {
+    .modal-lg,
+    .modal-xl {
+        max-width: 900px;
+    }
+}
+@media (min-width: 576px) and (max-width:991px) {
+    .modal-lg,
+    .modal-xl {
+        max-width: 730px;
+    }
+}
+.tour-popup{
+    width: 35vw;
+    max-width: 90vw;
+}
+.scheduleTimeContainer{
+    width: 29.3%;
+    border-radius: 50px;
+    margin: 2%;
+    border: 2px solid #707070;
+}
+.scheduleTimeContainerActive{
+    width: 29.3%;
+    background: #0590fb;
+    border-radius: 50px;
+    margin: 2%;
+}
+.scheduleTimeActive{
+    color: white;
+    text-align: center;
+    padding: 16px 0px;
+    margin-bottom: 0px;
+    font-family: 'DejaVuSansBold';
+}
+.scheduleTime{
+    color: #000000;
+    text-align: center;
+    padding: 14px 0px;
+    margin-bottom: 0px;
+    font-family: 'DejaVuSansBold';
+}
+.scheduleTimeContainer:hover{
+    background-color: #e8edf1;
+}

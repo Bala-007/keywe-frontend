@@ -1,0 +1,524 @@
+.testCard {
+  height: 100%;
+  position: relative;
+  padding: 12px;
+}
+
+.testImage {
+  position: absolute;
+  top: -65px;
+  width: 130px;
+}
+
+.signup1 {
+  background-color: #0490fb;
+  color: white;
+  border-radius: 15px;
+  width: 180px;
+  height: 60px;
+  border: none;
+  font-family: "DejaVuSansBold";
+  font-size: 23px;
+  margin-top: 25px;
+}
+
+.maskText {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+
+.maskText2 {
+  font-family: "DejaVuSansBold";
+  color: white;
+  font-size: 71px;
+}
+
+.showcase1 {
+  width: 100;
+}
+
+.signup {
+  background-color: whitesmoke;
+  color: #0490fb;
+  border-radius: 15px;
+  border: #0490fb;
+  height: 60px;
+  width: 260px;
+  font-size: 24px;
+  font-family: "DejaVuSansBold" !important;
+}
+
+.showcasetext {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  color: white;
+  width: 100%;
+  bottom: 40px;
+  justify-content: space-between;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.johnback {
+  background-image: url("../../../static/images/johnbackground.png");
+  padding: 50px;
+  margin-bottom: 7%;
+  background-repeat: repeat;
+  background-size: auto;
+  height: 790px;
+}
+
+.signupimage {
+  background-image: url("../../../static/images/Signup-banner.png");
+  padding: 50px 70px;
+  margin-bottom: 3%;
+}
+
+.quote {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.reviewtest {
+  text-align: center;
+  font-family: "DejaVuSansBold";
+  margin-bottom: 5%;
+  padding-top: 3%;
+}
+
+.homes {
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.myshow {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: "DejaVuSansBold";
+}
+
+.testmonial {
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+}
+
+.bgtestimonial {
+  background: #f8f8f8;
+}
+
+.testtext {
+  margin-top: 60px;
+  margin-left: 10px;
+  font-family: "DejaVuSansCondensed" !important;
+}
+
+.cardname {
+  margin-left: 10px;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.johnText {
+  color: white;
+  font-family: "DejaVuSansBold";
+  margin-top: 16px;
+  font-size: 33px;
+}
+
+.headbelText {
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.5;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-family: "SFPro-regular";
+}
+
+.johncontent {
+  font-size: 19px;
+  color: #fff;
+  line-height: 2;
+  margin-top: 25px;
+  font-family: "SFPro-regular";
+}
+
+/* Agent Chat Css */
+
+.AgentCard {
+  margin-bottom: 30px;
+  height: 60%;
+  border: 1px solid #4b91fb;
+}
+
+.johnImage {
+  float: right;
+  margin-top: 20px;
+}
+
+.home {
+  margin-left: 1%;
+  font-family: "DejaVuSansBold";
+}
+
+.homePrice {
+  font-family: "DejaVuSansBold";
+  margin-right: 22px;
+}
+
+.homePrice1 {
+  font-family: "DejaVuSansBold" !important;
+  color: white;
+}
+
+.signText {
+  font-family: "DejaVuSansBold" !important;
+  color: white !important;
+}
+
+.thisText {
+  color: white;
+  font-size: 22px;
+}
+
+/* Agent Chat Css */
+
+.AgentCard {
+  margin-bottom: 30px;
+  height: 60%;
+  border: 1px solid #0490fb;
+}
+
+/* Tour page Css */
+
+.agenttourcancel {
+  height: 45px;
+  background: #fff !important;
+  width: 100% !important;
+  border-color: rgb(4, 144, 251) !important;
+  color: rgb(4, 144, 251) !important;
+  box-shadow: none !important;
+  margin-top: -20px;
+
+}
+
+.agenttourchat {
+  height: 45px;
+  margin-right: 10px;
+  border-color: rgb(4, 144, 251) !important;
+  background: rgb(4, 144, 251) !important;
+  box-shadow: none !important;
+}
+
+.agenttourmodify {
+  height: 45px;
+  background: #fff !important;
+  margin-right: 10px;
+  width: 50% !important;
+  border-color: rgb(4, 144, 251) !important;
+  color: rgb(4, 144, 251) !important;
+  box-shadow: none !important;
+  margin-top: 0px;
+  float: right;
+}
+
+/*Agent Ediit Profile css*/
+
+.inputField {
+  width: 293px;
+  height: 43px;
+}
+
+.inputField1 {
+  width: 1249px;
+  height: 138px;
+}
+
+.proText {
+  font-size: 18px;
+  padding-top: 6%;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.profilePanel {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.profilelImage {
+  border-radius: 70px;
+  width: 143px;
+  height: 143px;
+}
+
+.editIcon {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 83px;
+}
+
+.secondBack {
+  padding-top: 30px;
+}
+
+.questionIcon {
+  fill: #f2f2f2;
+  color: black;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 60px;
+  border: 1px solid #e1dfdf;
+  padding: 1px 3px;
+  width: 30px;
+  height: 30px;
+}
+
+.favorite1 {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.rect {
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid #e1dfdf;
+  background-color: #fff;
+  padding: 8px 17px;
+  width: 55px;
+  height: 43px;
+  cursor: pointer;
+}
+
+.plusBack {
+  padding-top: 5px;
+}
+
+.createBack {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.joinBack {
+  display: flex;
+}
+
+.groupButton1 {
+  height: 40px;
+  width: 127px;
+  border-color: rgb(4, 144, 251) !important;
+  background: rgb(4, 144, 251) !important;
+  box-shadow: none !important;
+  color: #fff;
+  font-size: 13px !important;
+  border-radius: 8px !important;
+}
+
+.groupButton2 {
+  height: 40px;
+  width: 127px;
+  border-color: rgb(4, 144, 251) !important;
+  background: #fff !important;
+  box-shadow: none !important;
+  color: rgb(4, 144, 251) !important;
+  font-size: 13px !important;
+  border-radius: 8px !important;
+}
+
+.buttonBack {
+  padding-top: 19px;
+}
+
+.aboutText {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.textInputs {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.textInputs1:focus {
+  background: #eff7fc;
+}
+
+.textInputs1 {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #e1dfdf;
+  box-shadow: none !important;
+  outline: none;
+  font-size: 13px;
+  background: #fff;
+}
+
+.textInputs2 {
+  width: 100%;
+  height: 43px;
+  border-radius: 8px;
+  border: 1px solid #e1dfdf;
+  box-shadow: none !important;
+  outline: none;
+  padding-left: 40px !important;
+  font-size: 13px;
+  background: #fff;
+}
+
+.aboutMe {
+  width: 98.6%;
+  height: 138px;
+  border-color: #e1dfdf;
+  border-radius: 8px;
+  outline: none;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 2;
+  margin: 0px 0px 0 10px;
+  color: #686868;
+}
+
+.socialIcon {
+  display: flex;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.iconBack {
+  display: inline-block;
+  border-radius: 70px;
+  border: 2px solid #4283d9;
+  background-color: #4283d9;
+  padding: 4px 11px;
+  width: 43px;
+  height: 43px;
+  position: relative;
+}
+
+.logoIcon {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+/*Create popup*/
+
+.createInput {
+  width: 316px;
+  height: 43px;
+  border-radius: 8px;
+  border-color: #e8eae9 !important;
+  background-color: #fbfbfb;
+  border: 1px solid #e8eae9;
+  box-shadow: none !important;
+  outline: none;
+}
+
+.createText {
+  font-size: 15px;
+  color: solid #414141;
+}
+
+.doneButton {
+  width: 144px !important;
+  height: 40px !important;
+  border-radius: 8px !important;
+  margin-bottom: 30px;
+  border-color: rgb(4, 144, 251) !important;
+  background: rgb(4, 144, 251) !important;
+}
+
+.overallBack {
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.doneBack {
+  padding-top: 20px;
+}
+
+/* tour buyer css */
+.buyertourmodify {
+  width: 100%;
+  background-color: white !important;
+  color: #0094ff !important;
+  margin-bottom: 10px;
+}
+
+.selectdate {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.dateselect {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* Tour buyer detail css */
+
+.buyerdetailimage {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.buyerdetailprice {
+  margin-top: 10px;
+  font-family: "DejaVuSansBold";
+}
+
+.tourincredibletext {
+  margin-top: 15px;
+  line-height: 1.8;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+
+@media (max-width: 1600px) {
+  .homePrice {
+    font-size: 11px;
+    margin-right: 0;
+  }
+
+  .johnImage {
+    width: 100%;
+  }
+
+  .johnback {
+    height: auto;
+  }
+
+  .showcasetext {
+    bottom: 20px;
+  }
+
+  .reviewtest {
+    margin-bottom: 7%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .johncontent {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.navbarList{
+  float: right;
+  }
+
+
+.LinkList{
+    margin-right: 24px;
+    text-decoration: none;
+    color: #000000!important;
+    font-size:18px;
+  }
+
+  .Link{
+    margin-right: 24px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .link{
+    margin-left: auto;
+    margin-right: 10px;
+   }

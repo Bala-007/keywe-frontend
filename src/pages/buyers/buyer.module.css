@@ -1,0 +1,508 @@
+.viewbut2{
+    margin-left: 4%;
+    color: #0490fb;
+    background-color: white;
+    border-color: #0490fb;
+    padding: 10px;
+    border-radius: 8px;
+    width: 91%;
+    margin-bottom: 20px;
+    }
+    .transferbut{
+      width: 91%;
+      height: 51px;
+      margin-bottom: 22px;
+      background-color: #4B91FB;
+      margin-left: 17px;
+      border-radius: 13px;
+    }
+    .dashboardActive{
+      display: flex;
+      align-items: baseline;
+      position: absolute;
+      right: 0;
+    }
+    .detCard{
+      width: 92%;
+      margin-bottom: 30px;
+      height: 100px;
+      margin-left: 20px;
+    }
+    .activity{
+      display: flex;
+      margin-left: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+      justify-content: space-between
+    }
+    .week{
+      border-radius: 30px;
+      height: 37px;
+      background-color: white;
+      margin-right: 62px !important;
+      padding: 5px !important;
+    }
+    .viewdetails{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .viewtext1{
+      font-size: small;
+      margin-left: 23px;
+    }
+    .viewtext2{
+        font-size: small;
+    
+      }
+      .viewtext3{
+        font-size: small;
+        margin-right: 23px;
+      }
+    .otherbut2{
+      border-radius: 7px;
+      font-size: 15px;
+      height: 48px;
+      width: 103%;
+      border: none;
+      color: #0490fb;
+      margin-bottom: 20px;
+  }
+  .similarback{
+      background-color:#Efefef;
+      margin-bottom: 5%;
+  }
+  .similar{
+    font-family: "DejaVuSansBold"; 
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .simCard{
+      display:flex ;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+    .propCard{
+        width: 48%;
+        align-items: center;
+        padding: 10px;
+        border-radius: 15px !important;
+        /* margin-bottom: 5px; */
+        margin: 0;
+    }
+    .propImage{
+        padding: 14px;
+    }
+    .memberdetails{
+      position: relative;
+    }
+    .memberbut2{
+        padding: 2px;
+        border-radius: 18px;
+        width: 30%;
+        background-color: #37426F;
+        color: white;
+        height: 40px;
+        position: absolute;
+        left: 24px;
+        bottom: 13px;
+        padding-left: 17px;
+    }
+    .memberIcon{
+      position: absolute;
+      left: 35px;
+      bottom: 26px;
+      z-index: 9;
+
+  }
+    .dashboardActive2{
+      display: flex;
+      align-items: baseline;
+      margin-left: 20px;
+    }
+    .upload2{
+      position: absolute;
+      left: 18px;
+      top: 7px;
+    }
+  .phonintrest{
+    margin-left: 8px;
+  }
+  .msgint{
+    margin-left: 30px;
+  }
+  .intaddress{
+    text-align: center;
+    margin-top: 39px;
+  }
+  .imagedetails{
+    position: relative;
+    cursor: pointer;
+  }
+  .closebutton2{
+    position: absolute;
+    right: 29px;
+    top: 20px;
+  }
+  .dots2{
+    position: absolute;
+    left: 84px;
+    top: 15px;
+  }
+  .houseDetails{
+    display: flex;
+  }
+  .headContent{
+   margin-bottom: 20px;
+  }
+  .detailback{
+  background-color: white;
+  margin-top: -14px;
+  }
+  
+  .viewdisbut{
+    color: #0490fb;
+    background-color: white;
+    border-color: #0490fb;
+    padding: 10px;
+    border-radius: 6px;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .mask192{
+    margin-left: 22px;
+  }
+  .pricepop{
+      float: right;
+      margin-right: 22px;
+      font-family: "DejaVuSansBold";
+  }
+  .headText{
+    font-family: "DejaVuSansBold"; 
+    margin-left: 20px;
+  }
+  .pricecard{
+    font-family: "DejaVuSansBold" !important; 
+  }
+  .propback{
+    background-color: white !important;
+    padding: 2px !important;
+    margin-top: -12px !important;
+  
+  }
+  .inthomeImage{
+    width: 100%;
+  }
+  .housedetail{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+  .housesale{
+    margin-left: 18px;
+    font-family: "DejaVuSansCondensed";
+  }
+  .pricehouse{
+    font-family: "DejaVuSansBold"; 
+    margin-right: 17px;
+  }
+  .intaddess{
+    font-family: "DejaVuSansBold"; 
+    margin-left: 19px;
+  }
+  .cardtext2{
+      margin-left: 15px;
+  }
+
+  /* buyer page upcoming tour design */
+  .tourback{
+    background-color: #F2F2F2;
+    padding: 16px;
+    margin-left: -18px;
+  }
+  .upcomingtour{
+    font-family: "DejaVuSansBold"; 
+    margin-top: 10px;
+  }
+  .dateoftour{
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: -18px;
+  }
+  .totaltour{
+      display: flex;
+
+  }
+  .tourDate{
+    font-family: "DejaVuSansBold"; 
+    margin: 0;
+  }
+  .totalcontent{
+      margin-left: 47px;
+  }
+  .tourImagedetail{
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .tourdetail{
+      display: flex;
+      justify-content: space-between
+  }
+  .arrow{
+      height: 100%;
+  }
+  .cardRow {
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px 2px #e4e5e7;
+    margin: 30px 0px 0px;
+    padding: 20px 10px;
+    background: #fff;
+    cursor: pointer;
+    height: 185px;
+    align-items: center;
+  }
+  .cardRowImg { 
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+    height: 100px;
+    margin-right: 18px;
+  }
+.cardRowSpan {
+  color: rgb(255, 255, 255);
+  background: rgb(39, 154, 15);
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: SFPro-regular;
+}
+.hunterbg {
+  background: rgb(255, 255, 255);
+  padding: 1px 15px;
+  /* height: 100%; */
+}
+.hunterbgName {
+  border: 2px solid #f8f7f7;
+  padding: 25px 0px 0px;
+  background: rgb(255, 255, 255);
+  margin: 20px 0px 25px;
+  border-radius: 15px;
+}
+.callsName {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.negotiation {
+  background: #f0f0f0;
+  margin: 0px;
+  padding: 15px;
+}
+.negotiationimg {
+  width: 15px;
+  margin: 5px 5px 5px 0px;
+}
+.searchCriet {
+  margin: 5px 25px;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  padding: 10px 0px;
+}
+.savedText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.savedSale {
+  border: 1px solid rgb(188, 188, 188);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.sanfranImg {
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: rgb(228 229 231) 1px 2px 4px 2px;
+}
+.sanfranImages {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.acceptBtn {
+  height: 36px;
+  background: rgb(4, 144, 251);
+  width: 120px;
+  text-align: center;
+  margin-top: -10px;
+}
+.declineBtn {
+  height: 36px;
+  width: 120px;
+  text-align: center;
+  margin-top: 10px;
+}
+.profilestatusName {
+  margin-left: 10px;
+  margin-top: 7px;
+  font-family: DejaVuSansBold;
+  font-size: 16px;
+}
+.profilestatusNo {
+  font-family: DejaVuSansBold;
+  text-align: right;
+  font-size: 28px;
+}
+.carrieImage {
+  border-radius: 50px;
+  width: 90px;
+}
+.searchCriettext {
+  margin-top: 20px;
+  padding: 0px;
+  font-size: 16px;
+}
+.prospName {
+  margin-left: 20px;
+}
+.hunterimgName {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px
+}
+.recenttour1 {
+  height: 105px;
+}
+.recenttoursText {
+  margin-left: -40px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.recenttoursNum {
+  font-family: "DejaVuSansBold";
+}
+
+
+@media (max-width: 1600px) {
+  .cardRowImg {
+    width: 100%;
+    float: left;
+  }
+  .carrieImage {
+    margin-left: -30px;
+  }
+  .searchCriettext {
+    font-size: 14px;
+  }
+  .prospName {
+    margin-left: 0px;
+  }
+  .profilestatusName {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  .profilestatusNo {
+    font-size: 22px;
+  }
+  .sanfranImg {
+    font-size: 13px;
+    padding: 12px;
+  }
+  .memberbut2{  
+    width: 45%;
+  }
+  .recenttour1 {
+    height: auto;
+    width: auto;
+  }
+  .recenttoursText {
+    margin-left: -10px;
+  }
+  .recenttoursNum {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .carrieImage {
+    margin-left: -50px;
+  }
+  .callsName {
+    margin-right: 20px;
+  }
+  .searchCriettext {
+    font-size: 13px;
+  }
+  .acceptBtn {
+    width: 100%;
+  }
+  .declineBtn {
+    width: 100%;
+  }
+  .sanfranImg {
+    font-size: 13px;
+    padding: 7px;
+  }
+  .intaddess{
+    font-size: 16px;
+  }
+  .recenttour1 {
+    width: 90px;
+  }
+  .recenttoursText {
+    margin-left: 10px;
+  }
+  .recenttoursNum {
+    font-size: 11px;
+  }
+  .profilestatusNo {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .searchCriettext {
+    font-size: 11px;
+  }
+  .sanfranImg {
+    font-size: 11px;
+    padding: 7px;
+  }
+  .week{
+    margin-right: 20px !important;
+  }
+  .memberbut2{  
+    width: 60%;
+  }
+  .detCard{
+    height: auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  .searchCriettext {
+    font-size: 10px;
+  }
+  .detCard{
+    width: 90%;
+    margin-left: 10px;
+  }
+  .activity{
+    margin-left: 0px;
+  }
+  .recenttour1 {
+    width: 70px;
+  }
+  
+}

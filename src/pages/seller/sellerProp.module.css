@@ -1,0 +1,1192 @@
+/* Owned Property */
+.navbarList {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  align-items: center;
+  width: 100%;
+}
+
+.LinkList {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000000 !important;
+  font-size: 18px;
+}
+
+.Link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 70px;
+  /* / box-shadow: 0 0 2px blue; / */
+  border: 2px solid #0490fb;
+  padding: 0.2em 0.5em;
+}
+.dashboardActive {
+  display: flex;
+  align-items: baseline;
+}
+/* .container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  cursor: default;
+} */
+
+.profileMain {
+  display: block;
+  /* width: 100%; */
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  cursor: default;
+}
+.footerdes {
+  margin-top: 0px !important;
+}
+.profileImage {
+  position: relative;
+  width: 60px;
+}
+.dropIcon {
+  position: relative;
+  color: #27ab83;
+}
+.sideBar1 {
+  color: #fff;
+  background: #27ab83;
+  height: 50%;
+  width: 300px;
+  position: absolute;
+}
+.carouselRes {
+  margin: 15px auto;
+  display: flex;
+}
+.carouselResList {
+  margin-top: 20px;
+}
+.carouselImage {
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.CarouselCard1 {
+  width: 100%;
+}
+.CarouselCard2 {
+  margin: 0 auto;
+  box-shadow: #1d1d1d;
+}
+.favorite {
+  position: relative;
+}
+.favorite1 {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.active {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.active svg path {
+  color: #0490fb !important;
+  margin-top: 10px !important;
+}
+.beds {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBar {
+  background-color: #1d1d1d;
+  width: 270px;
+  color: #d8d8d8;
+}
+.claim {
+  font-family: sans-serif;
+  color: #0490fb;
+  text-align: right;
+  margin: 15px;
+  font-size: 16px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 19%;
+  height: 20em;
+}
+.tourbut {
+  color: #0490fb;
+  background-color: white;
+  border-color: #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+  width: 39%;
+}
+.chatbut {
+  background-color: #0490fb;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  width: 39%;
+  border-color: #0490fb;
+  border: none;
+  margin-left: 20px;
+}
+.memberbut {
+  border-radius: 18px;
+  width: 128px;
+  height: 23px;
+  background-color: #37426f;
+  color: white;
+  margin-bottom: 50px;
+}
+.viewbut {
+  margin-left: 20%;
+  color: #0490fb;
+  background-color: white;
+  border-color: #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+  width: 60%;
+}
+.schedulbut {
+  display: flex;
+  margin-bottom: 20px;
+}
+.housetext {
+  font-size: 12;
+}
+
+.detCard {
+  width: 81%;
+  margin-bottom: 15px;
+}
+.activity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.week {
+  border-radius: 30px;
+  height: 41px;
+  background-color: white;
+}
+.viewtext {
+  font-size: small;
+}
+.otherbut {
+  border-radius: 7px;
+  font-size: 15px;
+  height: 48px;
+  width: 103%;
+  border: none;
+}
+.propCard {
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+.simCard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detailsView {
+  box-shadow: #1d1d1d;
+  margin-left: 80%;
+  width: 20%;
+}
+.cardview {
+  width: 70%;
+  height: 50%;
+}
+
+/*myAgent template design */
+
+.agentProfile {
+  width: 144px;
+  height: 144px;
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  border-radius: 100%;
+  margin-top: 20px;
+  object-fit: fill;
+}
+
+.agentName {
+  font-weight: bold;
+  padding-left: 20px;
+  size: 18px;
+  font-family: "DejaVuSansBold";
+  text-transform: capitalize;
+}
+.agentNumber {
+  size: 14px;
+  padding-left: 18px;
+  font-family: "SFPro-regular";
+  margin-top: -10px;
+}
+.agentLicense {
+  size: 14px;
+  padding-left: 20px;
+  font-family: "SFPro-regular";
+  margin-top: -20px;
+}
+.agentCity {
+  size: 14px;
+  padding-left: 20px;
+  font-family: "SFPro-regular";
+
+}
+.chatIcon {
+  color: red;
+  size: 14px;
+}
+.activeNum {
+  display: flex;
+  align-items: flex-start;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: #000;
+}
+.off {
+  color: #ccc;
+}
+
+.bodyCarouselCard {
+  width: 100%;
+  height: 248px;
+  align-self: center;
+}
+.agentDetails {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #413b3b;
+}
+.agentDetails1 {
+  font-size: 16px;
+  padding-left: 20px;
+  color: #726e6e;
+}
+.agentDetails2 {
+  display: flex;
+}
+.agentDetails4 {
+  padding-right: 120px;
+}
+.agentDetails5 {
+  font-size: 16px;
+  padding-left: 20px;
+  color: #413b3b;
+}
+.unClaim {
+  font-family: sans-serif;
+  color: #0490fb;
+  font-size: 15;
+  width: 62;
+  height: 18;
+  display: flex;
+  float: right;
+  margin-top: 9px;
+}
+.descriptioncard1 {
+  display: flex;
+  margin: 0 auto;
+}
+.fav {
+  box-shadow: #1d1d1d;
+  margin: 0 auto;
+}
+.descriptioncard3 {
+  position: relative;
+  align-self: center;
+  width: 480px;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.homedescription1 {
+  font-size: 20px;
+  font-family: "DejaVuSansBold";
+
+  /* font-weight: bold; */
+}
+
+.smallCard {
+  font-size: 16px;
+  font-family: "DejaVuSansBold";
+}
+.smallCard1 {
+  font-size: 12px;
+  color: #898686;
+}
+.homedescription2 {
+  font-size: 16px;
+  font-family: "DejaVuSansBold";
+  /* font-weight: bold; */
+}
+.time {
+  font-size: 12;
+  font-family: "DejaVuSansCondensed";
+  color: #676666;
+}
+
+.detailIcon {
+  margin-bottom: 30px;
+}
+.incredibletext {
+  font-size: 15px;
+  font-family: "SFPro-regular";
+}
+
+.upload {
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+  border: 2px solid white;
+  padding: 0.2em 0.4em;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255);
+}
+
+.detCard {
+  width: 81%;
+  margin-bottom: 30px;
+  height: 100px;
+}
+.imagetext {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.detCard1 {
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 113px;
+  background-color: #fff;
+}
+.ImageView3 {
+  width: 100%;
+  height: 140px;
+  margin-top: 10px;
+}
+
+/*listed Property css */
+.cardBack {
+  background-color: #fff;
+  width: 521px;
+  height: 100%;
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  right: 100;
+}
+.homedescription3 {
+  font-size: 16px;
+  font-family: "DejaVuSansCondensed";
+
+  /* font-weight: bold; */
+}
+.homedescription4 {
+  font-size: 15px;
+  font-family: "DejaVuSansCondensed";
+  /* font-weight: bold; */
+}
+.descriptioncard4 {
+  position: relative;
+  width: 480px;
+  height: 100%;
+  background-color: rgb(242, 242, 242);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.propback {
+  margin-top: -12px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.closeIcon1 {
+  width: 19px;
+  height: 19px;
+  padding-left: 100px;
+}
+.activeOffer {
+  font-size: 15px;
+  font-family: "DejaVuSansBold";
+}
+.dashboardActive2 {
+  display: flex;
+  align-items: baseline;
+}
+.agentDetails {
+  margin-bottom: 20px;
+}
+.homeImage {
+  width: 175px;
+  height: 110px;
+}
+.sellerActive {
+  display: flex;
+  align-items: baseline;
+}
+.listData {
+  width: 100%;
+}
+.housetext1 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.houseSale {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.docIcon {
+  font-size: 14px;
+  padding-right: 100px 90px;
+}
+.iconBack {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.iconBack1 {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+.listBack {
+  width: 100%;
+  height: 100%;
+}
+.iconBack2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.iconBack3 {
+  position: absolute;
+  /* top: 10px; */
+  bottom: 10px;
+  right: 20px;
+}
+.memberSale {
+  font-size: 15px;
+  text-align: right;
+  font-family: "DejaVuSansBold";
+}
+.memberSale2 {
+  font-size: 20px;
+  text-align: right;
+  font-family: "DejaVuSansBold";
+}
+.incredibletext {
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+.detCard {
+  width: 73%;
+  margin-bottom: 30px;
+  height: 100px;
+}
+.activity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.week1 {
+  border-radius: 30px;
+  height: 35px;
+  background-color: transparent;
+  padding: 0px 10px !important;
+  border-color: #c7c7c7;
+}
+.docOne2 {
+  font-size: 18px;
+  font-family: "DejaVuSansCondensed";
+  margin: 0;
+  padding: 10px 0;
+}
+.docOne3 {
+  font-size: 12px;
+  font-family: "DejaVuSansCondensed";
+  margin: 0;
+  padding: 10px 0;
+  color: "#676666";
+}
+.viewtext {
+  font-size: small;
+  margin: 0;
+}
+.otherbut {
+  border-radius: 7px;
+  font-size: 15px;
+  height: 48px;
+  width: 103%;
+  border: none;
+  background: #d6d6d6;
+  color: #0490fb;
+}
+.propCard1 {
+  width: 201px;
+  height: 201px;
+
+  padding: 10px;
+
+  border-radius: 20px !important;
+  margin-bottom: 20px;
+}
+.simCard2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.similar {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "DejaVuSansBold";
+}
+.similarRecent {
+  font-size: 15px;
+  font-family: "DejaVuSansBold";
+}
+.similarback {
+  background-color: #efefef;
+  /* margin-bottom: 5%; */
+}
+.imageList {
+  width: 143px;
+  height: 111px;
+}
+.iconUp {
+  stroke: #747373;
+  width: 13px;
+  height: 13px;
+  padding-bottom: 2px;
+}
+.likeCount {
+  color: #747373;
+  font-size: 12px;
+}
+.numzero {
+  position: absolute;
+  padding-top: 220px;
+  font-size: 14px;
+  font-family: "DejaVuSansBold";
+  padding-left: 30px;
+  color: rgb(137, 134, 134);
+}
+.numone {
+  position: absolute;
+  padding-top: 50px;
+  font-size: 14px;
+  font-family: "DejaVuSansBold";
+  padding-left: 20px;
+  color: rgb(137, 134, 134);
+}
+.numtwo {
+  position: absolute;
+  padding-left: 127px;
+  font-size: 14px;
+  font-family: "DejaVuSansBold";
+
+  color: rgb(137, 134, 134);
+}
+.numthree {
+  position: absolute;
+  padding-top: 50px;
+  font-size: 14px;
+  font-family: "DejaVuSansBold";
+  padding-left: 230px;
+  color: rgb(137, 134, 134);
+}
+.numfour {
+  position: absolute;
+  padding-top: 230px;
+  font-size: 14px;
+  font-family: "DejaVuSansBold";
+  padding-left: 220px;
+  color: rgb(137, 134, 134);
+}
+.similar1 {
+  padding-right: 50px;
+  font-size: 15px;
+  font-family: "DejaVuSansBold";
+}
+.propImage {
+  /* margin-top: 10px; */
+  padding: 10px;
+  margin-bottom: -10px;
+}
+.upload1 {
+  margin-left: -411px;
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+  border: 2px solid white;
+  padding: 0.2em 0.4em;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255);
+}
+.popupsearch {
+  display: flex;
+  justify-content: space-between;
+}
+.searchIcon {
+  position: absolute;
+  top: 10px;
+  left: 39%;
+  color: #9d9d9d;
+}
+.popupselect {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.tourtext {
+  font-size: small;
+}
+.tourtext1 {
+  font-weight: 100;
+  font-size: small;
+}
+.selectdistance {
+  width: 45%;
+  border-radius: 31px;
+  border: none;
+  background-color: #f9f9f9;
+}
+.toursearch {
+  border-radius: 30px;
+  border: none;
+  background-color: #f9f9f9;
+}
+.chatinput {
+  width: 90%;
+  border-radius: 25px;
+}
+.viewbutton {
+  width: 212px;
+  border-radius: 25px;
+}
+.chatdetail {
+  display: flex;
+}
+.circle {
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+  border: 2px solid #0490fb;
+  padding: 5px 7px;
+  width: 35px;
+  height: 35px;
+}
+.ulList {
+  display: grid;
+  /* grid-gap: calc(var(--gutter) / 2); */
+  /* grid-template-columns: 10px; */
+  grid-template-rows: minmax(150px, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: calc(50% - var(--gutter) * 2);
+  grid-gap: 20px;
+  overflow-x: scroll;
+  overflow: hidden;
+  scroll-snap-type: x proximity;
+  padding-left: 20px;
+  padding-bottom: calc(0.75 * var(--gutter));
+  margin-bottom: calc(-0.25 * var(--gutter));
+}
+.ulList::after {
+  content: "";
+  width: 10px;
+}
+.ulList > li,
+.liList {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+}
+.upload {
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+  border: 2px solid white;
+  padding: 5px 7px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255);
+}
+.detailIcon {
+  margin-bottom: 30px;
+}
+.viewdetails {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.imagetext {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.homePrice {
+  font-family: "DejaVuSansBold";
+  margin-left: 10px;
+  text-align: left !important;
+}
+
+/* calendar popup */
+.Calendar {
+  width: 100% !important;
+  border: none !important;
+  margin-bottom: 27px !important;
+}
+.calbutton {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 23px !important;
+  border-color: black !important;
+}
+.timebut1 {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.timebut2 {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.calbutton1 {
+  background-color: #0490fb !important;
+  color: white !important;
+  border-radius: 23px !important;
+  border-color: black !important;
+}
+/* connect agent popup */
+
+.agentText {
+  font-weight: 100;
+}
+/* success popup */
+.successtext {
+  text-align: center;
+  margin-top: 20px;
+}
+.circle2 {
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+  border: 2px solid #78c93a;
+  padding: 0.2em 0.4em;
+  margin-top: 13px;
+  margin-left: 45%;
+}
+/* tourconfirm popup */
+.tourconfirm {
+  border-radius: 34px;
+  background-color: rgb(0 0 0 / 50%);
+  width: 78%;
+  margin-left: 46px;
+  margin-top: 89px;
+}
+.modelbox {
+  background: transparent;
+}
+.viewmytourbut {
+  color: #0490fb !important;
+  border-color: #0490fb !important;
+  background-color: white !important;
+  width: 50% !important;
+  margin-bottom: 29px !important;
+  margin-left: 25% !important;
+  height: 50px !important;
+}
+.successtext2 {
+  text-align: center;
+  margin-top: 20px !important;
+  color: white !important;
+}
+.modelbox .modal-content {
+  background: transparent !important;
+}
+.keyEstimator {
+  color: #ffffff;
+  background-color: #0490fb;
+  border-color: #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+  width: 440px;
+  height: 52px;
+}
+.keyEstimatorbtn {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.similarback1 {
+  background-color: #f2f2f2;
+  height: 100%;
+}
+.similarback2 {
+  background-color: #f2f2f2;
+  height: 100%;
+  padding-top: 20px;
+}
+.similarback3 {
+  background-color: #fff;
+  height: 100%;
+  padding-bottom: 20px;
+}
+.simCard1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.meterBar {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.vitalize {
+  font-size: 15px;
+  font-family: "DejaVuSansBold";
+}
+.vitalizetext {
+  font-family: "DejaVuSansCondensed";
+}
+.vitalizeBtn {
+  width: 240px;
+  height: 52px;
+  border-width: 2px;
+  border-color: #0490fb;
+  background-color: #ffffff;
+  color: #0490fb;
+  padding: 10px;
+  border-radius: 6px;
+}
+.recentCard {
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.recently {
+  font-size: 14px;
+  font-family: "DejaVuSansBold";
+}
+.recently1 {
+  font-size: 14px;
+  font-family: "DejaVuSansCondensed";
+}
+.recentImage {
+  margin-top: 10px;
+}
+.arrowIcon {
+  width: 22px;
+  height: 2px;
+  padding-left: 184px;
+  font-size: 22;
+}
+.similarback2 {
+  background-color: #efefef;
+  height: 240px;
+}
+.favorite2 {
+  position: relative;
+  padding-top: 20px;
+}
+.carouselImage2 {
+  height: 401px;
+  width: 443px;
+}
+/* .upload2 {
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+/* border: 2px solid white;
+  padding: 0.2em 0.4em;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255);
+} */
+.favorite3 {
+  position: absolute;
+  top: 30px;
+  left: 90%;
+}
+.circle {
+  display: inline-block;
+  border-radius: 70px;
+  /* / box-shadow: 0 0 2px blue; / */
+  border: 2px solid #0490fb;
+  padding: 0.2em 0.5em;
+}
+.upload3 {
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 60px;
+  /* box-shadow: 0 0 2px blue; */
+  color: #0490fb;
+  padding: 0.2em 0.4em;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%), inset 0 0 40px rgb(255 255 255);
+}
+.innerbutton1 {
+  position: absolute;
+  top: 380px;
+  left: 20px;
+}
+.dashboardActive1 {
+  display: flex;
+  align-items: baseline;
+}
+.circularBack {
+  width: 272px;
+  height: 260px;
+  background-color: #fff;
+  margin-bottom: "45px";
+  margin: 0 auto;
+}
+
+.otherbut1 {
+  border-radius: 10px;
+  font-size: 10px;
+  height: 29px;
+  width: 260px;
+  background: #f2f2f2;
+  color: #0490fb;
+  margin-left: 90px;
+}
+.activityName {
+  font-size: 18;
+}
+.arrowIcon1 {
+  padding-left: 184px;
+  font-size: 22;
+}
+.alignTable {
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.docFirst {
+  font-family: "DejaVuSansCondensed";
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 0;
+}
+.docSecond {
+  font-family: "DejaVuSansCondensed";
+  direction: rtl;
+  margin: 0;
+  padding: 10px 0;
+  padding-left: 90px;
+}
+.docThird {
+  font-family: "DejaVuSansCondensed";
+  direction: rtl;
+  margin: 0;
+  padding: 10px 0;
+}
+.docFirst1 {
+  font-family: "DejaVuSansCondensed";
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 0;
+}
+.docSecond1 {
+  font-family: "DejaVuSansCondensed";
+  direction: rtl;
+  margin: 0;
+  padding: 10px 0;
+}
+.docThird1 {
+  font-family: "DejaVuSansCondensed";
+  direction: rtl;
+  margin: 0;
+  padding: 10px 0;
+}
+.iconCircle {
+  display: inline-block;
+  border-radius: 100px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  padding: 0.8em 0.8em;
+}
+.iconCircle2 {
+  display: inline-block;
+  border-radius: 50px;
+  border: 2px solid #fff;
+
+  background-color: #fff;
+  height: 51px;
+  width: 51px;
+  padding: 0.8em 0.8em;
+  opacity: 00.5299999713897705;
+}
+.viewdetails1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 20px;
+}
+.viewtext {
+  font-size: small;
+  padding-right: 50px;
+}
+.imagedetails {
+  position: relative;
+}
+.imageBack1 {
+  width: 100%;
+  height: 402px;
+}
+.closebutton2 {
+  position: absolute;
+  right: 61px;
+  top: 20px;
+}
+.dots2 {
+  position: absolute;
+  left: 75px;
+  top: 10px;
+}
+.memberIcon {
+  position: absolute;
+  left: 36px;
+  bottom: 26px;
+  z-index: 9;
+}
+.memberbut2 {
+  padding: 3px;
+  border-radius: 18px;
+  width: 40%;
+  background-color: #37426f;
+  color: white;
+  height: 40px;
+  position: absolute;
+  left: 13px;
+  bottom: 13px;
+}
+.memberdetails {
+  position: relative;
+}
+.upload3 {
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+.upload2 {
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+
+/* find agent css */
+
+.phonenumber {
+  display: flex;
+  margin-left: 11px;
+}
+
+.BarInfo {
+  margin-top: 40px;
+}
+
+.mobileImage {
+  margin-top: -10px;
+  height: 20px;
+  margin-left: 8px;
+}
+.featurehead {
+  font-family: "DejaVuSansBold";
+}
+.agenthead {
+  font-family: "DejaVuSansBold";
+  margin-top: 30px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+.searchbox {
+  margin-right: 35px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.searchbox2 {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.pac-container{
+  z-index: 11100 !important
+}
+.transferbut{
+  width: 100%;
+  height: 53px;
+  margin-bottom: 22px;
+  background-color: #4B91FB;
+}
+.chatdata{
+    color: "#0490fb";
+    font-size: 14px;
+    font-weight: "bold";
+    padding: 5px;
+  }
+
+
+
+
+
+
+@media (max-width: 1600px) {
+  .beds div {
+    margin-left: 5px !important;
+    margin-top: -5px !important;
+  }
+}
+
+
+@media (max-width: 1366px) {
+  .avatarColor {
+      width: 80% !important;
+    height: 80% !important;
+}
+}

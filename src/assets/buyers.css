@@ -1,0 +1,76 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: transparent;
+    border: none;
+    border-width: 4px;
+    font-weight: 900;
+    color: #0490fb;
+    font-size:18px;
+    font-family: "DejaVuSansBold";
+    position: relative;
+}
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    color:#000000;
+    font-size:18px;
+    padding: 10px 30px 10px 0px;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+  
+.nav-tabs .nav-link.active::after {
+    content: "";
+    width: 50px;
+    border-bottom: 5px solid;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 30px;
+}
+
+.buyer-search{
+    border: 0px solid;
+     border-radius: 25px;
+      /* height: 33px; */
+      width: 250px;
+      padding: 10px 15px !important;
+      outline: none;
+}
+
+.searchIconAgent{
+    position: absolute;
+    top: 8px;
+    right: 70px;
+}
+
+.buyer-search::-webkit-input-placeholder {
+    color: #414141 !important;
+    font-size: 17px !important;
+}
+.prequalified-img {
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+.callimg-img {
+    margin-right: 20px;
+}
+.callsimg-img {
+    margin-right: 20px;
+}
+.tabdesign{
+    background: transparent;
+    margin-top: -16px !important;
+    margin-bottom: 74px !important;
+}
+.buyerdetailcardprice{
+    font-family: "DejaVuSansBold";
+    margin: 0;
+}
+.buyerName{
+ font-family: "DejaVuSansBold";
+  margin-top: "10px";
+  /* padding-left: 20px; */
+}
+

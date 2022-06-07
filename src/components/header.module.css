@@ -1,0 +1,87 @@
+.navbar, .navbarDashboard{
+    /* display: flex;
+    flex-direction: row;
+    z-index: 2;
+    align-items: center;
+    width: 100%; */
+    float: right;
+  }
+/* .navbarDashboard{
+    position: absolute !important;
+    margin-left: -50px;
+    padding-left: 50px;
+} */
+
+.Link, .LinkDashboard{
+    margin-right: 24px;
+    text-decoration: none;
+    color: #000000;
+    font-size:18px;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-family: "SFPro-regular";
+  }
+.navbarDashboard .Link{
+  color: #fff !important;
+}
+.navbarDashboard svg path {
+  color: #fff !important;
+}
+.LinkDashboard{
+    color: #fff !important;
+}
+
+
+  /* .Link{
+    margin-right: 24px;
+    text-decoration: none;
+    color: white;
+  } */
+
+  /* .link{
+    margin-left: auto;
+    margin-right: -10px;
+   } */
+    .Link:hover, .LinkDashboard:hover, .footer-link a, div#profile-dropdown a:hover{
+     color:#0490fb !important; 
+   }
+   .dropIcon:hover{
+    color:#0490fb !important; 
+
+     fill:#0490fb !important; 
+   }
+   .profileImage {
+    position: relative;
+    width: 60px;
+  }
+  .dropIcon {
+    position: relative;
+    color: #27ab83;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .navbarBorder{
+    border-bottom: 1px solid #d5d4d4;
+    padding-bottom: 15px;
+  }
+
+  .footerNav{ 
+    text-decoration: none;
+     color: black;
+    font-family: "SFPro-regular";
+
+  }
+  .sidebarlogout{
+    display: flex;
+    align-items: center;
+  }
+  .footerdes{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }

@@ -1,0 +1,319 @@
+.networktext {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e1e1e1;
+  padding: 30px 0px;
+}
+.networkCard {
+  border-radius: 20px;
+  padding: 15px 25px 0;
+  margin-top: 100px;
+  border: none;
+  box-shadow: rgb(221 221 221) 0px 5px 8px;
+}
+.networkgrouphead button.btn.btn-primary {
+  background: #0590fb;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 220px;
+}
+.networkgrouphead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c4c4c4;
+}
+.networkhead {
+  font-family: "DejaVuSansBold";
+  margin: 0;
+  padding: 10px 0;
+}
+.networkname {
+  font-family: "DejaVuSansBold";
+}
+.networkCard2 {
+  border-radius: 20px;
+  padding: 15px 25px 0;
+  margin-top: 30px;
+  border: none;
+  box-shadow: rgb(221 221 221) 0px 5px 8px;
+  margin-bottom: 10%;
+}
+.networktext2 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e1e1e1;
+  padding: 30px 0px;
+}
+.networkLink {
+  text-decoration: underline;
+  font-size: 16px;
+}
+.networksearchinput {
+  border: 0px solid;
+  border-radius: 15px;
+  height: 44px;
+  width: 100%;
+}
+
+.searchIcon2 {
+  margin-left: -55px;
+  width: 25px;
+  height: 20px;
+}
+.networkinvite2 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e1e1e1;
+  padding: 30px 0px;
+}
+.accepttext {
+  display: flex;
+  margin-right: 25px;
+  align-items: center;
+}
+.declinetext {
+  display: flex;
+  align-items: center;
+}
+.declineaccept {
+  display: flex;
+  margin-right: 20px;
+}
+.viewaccept {
+  margin-right: 20px;
+}
+
+/* Network detail css */
+.networkdethead {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.danielname {
+  font-family: "DejaVuSansBold";
+  margin: 0;
+}
+.maridianText {
+  font-family: "DejaVuSansBold";
+  margin: 0;
+}
+.agentText {
+  font-family: "DejaVuSansBold";
+  margin: 0;
+}
+.networkdetail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.networkdetailCard {
+  padding: 20px 20px 0;
+  margin-top: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 4px 2px #e4e5e7;
+  border: none;
+}
+.deletemessage {
+  padding-left: 150px;
+}
+.ml-70 {
+  margin-left: -70px;
+}
+.ml-40 {
+  margin-left: -40px;
+}
+.networkhrtag {
+  width: 96%;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #a7a7a7;
+}
+.networkdetbut {
+  display: flex;
+}
+.networkdelete {
+  margin-right: 15px;
+  width: 106px;
+  background-color: transparent;
+  color: #0590fb;
+  height: 45px;
+  border: 1px solid #0590fb;
+  border-radius: 8px;
+}
+.networkmessage {
+  margin-right: 15px;
+  width: 135px;
+  background-color: transparent;
+  color: #0590fb;
+  height: 45px;
+  border: 1px solid #0590fb;
+  border-radius: 8px;
+}
+.networkdetadd {
+  border-radius: 8px;
+  height: 45px;
+  background: #0590fb;
+  border: none;
+  width: 200px;
+}
+.networkheading {
+  margin-left: 361px;
+  font-family: "DejaVuSansBold";
+  margin-top: 14px;
+}
+.networkselect {
+  margin-top: 18px;
+  font-size: 16px;
+}
+.networkbackicon {
+  display: flex;
+  margin-top: 5%;
+  align-items: flex-start;
+  margin-left: -5px;
+}
+.backtext {
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 20px;
+}
+.kimberlydetail {
+  margin-left: -58px;
+  margin-top: 88px !important;
+}
+.editprofilelink {
+  margin-top: 88px !important;
+}
+.networkdeleteIcon {
+  position: absolute;
+  left: 10px;
+  top: 17px;
+  width: 11px;
+}
+.messageIconnetwork {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+}
+.searchBuy.networkSearch {
+  right: 0;
+}
+.dashboardbackicon{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/*Rounded Check Box */
+.checkbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.checkbox__input {
+  display: none;
+}
+
+.checkbox__inner {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 1px solid #d1d1d1;
+  background: transparent no-repeat center;
+}
+
+.checkbox__input:checked + .checkbox__inner {
+  border-color: #0590fb;
+  background-color: #0590fb;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='10px' viewBox='0 0 14 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 59.1 (86144) - https://sketch.com --%3E%3Ctitle%3Echeck%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='ios_modification' transform='translate(-27.000000, -191.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='Group-Copy' transform='translate(0.000000, 164.000000)'%3E%3Cg id='ic-check-18px' transform='translate(25.000000, 23.000000)'%3E%3Cpolygon id='check' points='6.61 11.89 3.5 8.78 2.44 9.84 6.61 14 15.56 5.05 14.5 4'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 14px 10px;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+ 
+}
+p.accept {
+  margin: 0;
+  margin-left: 5px;
+}
+p.decline {
+  margin: 0;
+  margin-left: 5px;
+}
+.networkSearch .searchIconAgent {
+  right: 30px;
+}
+img.plus-icon-img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+img.pluses-icon-img {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.networkcenter {
+  align-items: center;
+  font-size: 16px;
+}
+
+
+@media (max-width: 1600px) {
+  .ml-70 {
+    margin-left: -60px;
+  }
+  .ml-40 {
+    margin-left: -20px;
+  }
+  .deletemessage {
+    padding-left: 110px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .deletemessage {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .deletemessage {
+    padding-left: 70px;
+  }
+  .ml-40 {
+    margin-left: -10px;
+  }
+  .ml-70 {
+    margin-left: -50px;
+  }
+  .networkheading {
+    margin-left: 250px;
+  }
+  .networkcenter {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .deletemessage {
+    padding-left: 50px;
+  }
+  .ml-40 {
+    margin-left: 0px;
+  }
+  .ml-70 {
+    margin-left: -40px;
+  }
+  .networkheading {
+    margin-left: 200px;
+  }
+  .networkcenter {
+    font-size: 14px;
+  }
+}
